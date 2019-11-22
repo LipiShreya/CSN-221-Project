@@ -11,25 +11,23 @@ from utils import benchmark
 
 data1 = [
     ("Prefetch", [0, 1]),
-    ("Distance", [1, 5, 10, 15, 20, 25, 30]),
+    ("Distance", [1, 5]),
     ("Hint", [3])
 ]
 
 data2 = [
     ("Prefetch", [1]),
-    ("Distance", [1, 5, 10, 15, 20, 25, 30]),
-    ("Hint", [0, 1, 2, 3])
+    ("Distance", [1, 5]),
+    ("Hint", [0, 1])
 ]
 
 frame1 = benchmark(data1, pin_to_cpu=True, repeat=2)
-
 frame2 = benchmark(data2, pin_to_cpu=True, repeat=2)
 
 plt.subplot(211)
 seaborn.lineplot(x="Distance", y="Time", hue="Prefetch", data=frame1)
 
 plt.subplot(212)
-plt.subplot()
 seaborn.lineplot(x="Distance", y="Time", hue="Hint", data=frame2)
 
 plt.show()
