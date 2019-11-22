@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Timeline " company="" webLink="http://" view-date="2019-09-30" view-index="0" gantt-divider-location="598" resource-divider-location="300" version="2.8.10" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="282" order="0"/>
+        <field id="tpd4" name="Begin date" width="156" order="1"/>
+        <field id="tpd5" name="End date" width="156" order="2"/>
+        <timeline><![CDATA[0]]></timeline>
+        <option id="color.recent"><![CDATA[#f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Topis selection and abstract submission" color="#8cb6ce" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-09-29" duration="3" complete="14" thirdDate="2019-10-31" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Searching and discussion on relevant researsh papers" color="#8cb6ce" meeting="false" start="2019-10-02" duration="8" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Examining proposed algorithms and creating new ones" color="#8cb6ce" shape="1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0" meeting="false" start="2019-10-07" duration="6" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Sequential Prefetching( methods)" color="#8cb6ce" meeting="false" start="2019-10-06" duration="4" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Strided Prefetching(methods)" color="#8cb6ce" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2019-10-06" duration="4" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="One's Complement Cache enhancement" color="#8cb6ce" meeting="false" start="2019-10-07" duration="5" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="Even odd tabulation" color="#8cb6ce" meeting="false" start="2019-10-12" duration="7" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Direct Mapped Cache" color="#8cb6ce" meeting="false" start="2019-10-10" duration="7" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="23" name="Set Associative Cache" color="#8cb6ce" meeting="false" start="2019-10-14" duration="4" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Fully Associaive Cache" color="#8cb6ce" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2019-10-15" duration="4" complete="0" thirdDate="2019-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Report Submission" color="#8cb6ce" meeting="false" start="2019-10-31" duration="1" complete="0" thirdDate="2019-09-23" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Umama Alim" function="Default:1" contacts="ualim@ec.iitr.ac.in" phone=""/>
+        <resource id="1" name="Adarsh Gupta" function="Default:1" contacts="agupta8@ec.iitr.ac.in" phone=""/>
+        <resource id="2" name="Lipi Shreya" function="Default:1" contacts="lshreya@ec.iitr.ac.in" phone=""/>
+        <resource id="3" name="Aseem Verma" function="Default:1" contacts="averma2@cs.iitr.ac.in" phone=""/>
+        <resource id="4" name="Aditya Kumar Singh" function="Default:1" contacts="asingh6@ec.iitr.ac.in" phone=""/>
+        <resource id="5" name="Shubhrak Prakash" function="Default:1" contacts="sprakash@cs.iitr.ac.in" phone=""/>
+        <resource id="6" name="Priyansh Agarwal" function="Default:1" contacts="pagarwal@cs.iitr.ac.in" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
